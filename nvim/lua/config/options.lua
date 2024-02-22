@@ -6,6 +6,7 @@ opt.shiftwidth = 2
 opt.softtabstop = 2
 opt.expandtab = true
 opt.smartindent = true
+opt.linebreak = true
 opt.wrap = false
 
 -- Search 
@@ -15,6 +16,7 @@ opt.smartcase = true
 opt.hlsearch = false
 
 --Aparencia
+opt.number = true
 opt.relativenumber = false
 opt.termguicolors = true
 opt.colorcolumn = '100'
