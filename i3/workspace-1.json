@@ -1,0 +1,51 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 506,
+       "width": 817,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": " - jimi@debian: ~",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^Xfce4\\-terminal$",
+       // "instance": "^xfce4\\-terminal$",
+       // "machine": "^debian$",
+       // "title": "^\\ \\-\\ jimi\\@debian\\:\\ \\~$",
+       // "window_role": "^xfce4\\-terminal\\-1732374705\\-2053636672$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 506,
+       "width": 817,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": " - jimi@debian: ~",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^Xfce4\\-terminal$",
+       // "instance": "^xfce4\\-terminal$",
+       // "machine": "^debian$",
+       // "title": "^\\ \\-\\ jimi\\@debian\\:\\ \\~$",
+       // "window_role": "^xfce4\\-terminal\\-1732374747\\-86172808$"
+       }
+    ],
+    "type": "con"
+}
+

@@ -32,24 +32,27 @@ font pango:monospace 8
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
-exec --no-startup-id dex --autostart --environment i3
+#exec --no-startup-id dex --autostart --environment i3
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+#exec --no-startup-id --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 exec --no-startup-id i3-sensible-terminal
 exec --no-startup-id google-chrome
-
+exec --no-startup-id thunderbird
 
 #mult monitors
-exec --no-startup-id xrandr --output DVI-D-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI-0 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-0 --mode 1440x900 --pos 3840x0 --rotate left --output DP-1 --off
+#exec --no-startup-id xrandr --output DVI-D-1 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI-1 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-1 --mode 1440x900 --pos 3840x0 --rotate right --output
+
+exec_always --no-startup-id $HOME/.screenlayout/bugado.sh
+
 
 exec_always --no-startup-id numlockx on
 
@@ -76,9 +79,9 @@ floating_modifier $mod
 
 bindsym $mod+g exec google-chrome
 bindsym $mod+t exec thunderbird
-bindsym $mod+Shift+s exec steam
-bindsym $mod+Shift+p exec sudo poweroff
-bindsym $mod+Shift+o exec sudo reboot
+bindsym $mod+Shift+v exec pavucontrol
+bindsym $mod+Shift+s exec systemctl suspend 
+#bindsym $mod+Shift+p exec pof
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal

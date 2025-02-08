@@ -1,0 +1,51 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 690,
+       "width": 896,
+       "x": 3842,
+       "y": 18
+    },
+    "marks": [],
+    "name": "Caixa de Entrada - TickTick - Google Chrome",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^Google\\-chrome$",
+       // "instance": "^google\\-chrome$",
+       // "machine": "^debian$",
+       // "title": "^Caixa\\ de\\ Entrada\\ \\-\\ TickTick\\ \\-\\ Google\\ Chrome$",
+       // "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 690,
+       "width": 896,
+       "x": 3842,
+       "y": 728
+    },
+    "marks": [],
+    "name": "Doutorado - Google Chrome",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^Google\\-chrome$",
+       // "instance": "^google\\-chrome$",
+       // "machine": "^debian$",
+       // "title": "^Doutorado\\ \\-\\ Google\\ Chrome$",
+       // "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
